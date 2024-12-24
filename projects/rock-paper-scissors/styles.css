@@ -1,3 +1,5 @@
 body {
+    display: flex;
     background-color: #181818;
+    color: silver;
 }

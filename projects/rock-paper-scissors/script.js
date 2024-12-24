@@ -79,9 +79,9 @@ function playGame() {
     playRound(humanSelection, computerSelection);
 }
 
-for (let i = 0; i < 5; i++) {
-    playGame();
-}
+// for (let i = 0; i < 5; i++) {
+//     playGame();
+// }
 
 console.log('Final Scores:');
 console.log(`Human: ${humanScore}, Computer: ${computerScore}`);
