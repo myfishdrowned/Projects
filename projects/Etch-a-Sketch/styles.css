@@ -1,0 +1,53 @@
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-color: #181818;
+    font-family: Arial, sans-serif;
+    color: silver;
+}
+
+/* Button styling */
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(55, 72, 104);
+    color: white;
+}
+
+/* Grid container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid #ccc;
+}
+
+/* Grid item (square) */
+.square {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    flex-grow: 1;
+}
+
+/* Hover effect */
+.square:hover {
+    background-color: #666;
+}
